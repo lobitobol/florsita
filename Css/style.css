@@ -18,7 +18,7 @@ canvas {
 }
 
 .Contenedor {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -113,5 +113,10 @@ canvas {
     body {
         background: linear-gradient(100deg, blue, purple, pink);
 
+    }
+}
+@media(max-width: 900px){
+    .Contenedor {
+        display: block;
     }
 }
